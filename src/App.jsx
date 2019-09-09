@@ -85,6 +85,9 @@ class App extends Component {
     const {pessoa } = this.state;
   return (
     <div className="App">
+        <header className="header" >
+            <h1> CRUD de Pessoas Java + Spring Boot + JPA / ReactJs </h1>
+        </header>
         <Container className="Container">
           <Row>
                 <Col>
@@ -157,7 +160,7 @@ class App extends Component {
                   </Card>
                   <br/>
                 </Col>
-              </Row>
+          </Row>
           <Row>
             <Col>
               <Card>
